@@ -1,0 +1,13 @@
+.box-modal {
+	position: relative;
+	width: 650px;
+	background: #fff;
+	color: #3c3c3c;
+	font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	 border-radius: 15px;
+}
+.box-modal_close { position: absolute; right: 10px; top: 6px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+.box-modal_close:hover { color: #666; }
+.arcticmodal-container_i td{
+max-width:700px;
+}

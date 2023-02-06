@@ -1,0 +1,685 @@
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+
+	header {
+		padding-top: 32px;
+	}
+
+	.header__menu a, .footer__menu a {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.main__info {
+		width: 560px;
+	}
+
+	.main__form input {
+		padding-left: 15px;
+	}
+
+	.why__item {
+		width: 230px;
+	}
+
+	.why {
+		padding-bottom: 320px;
+	}
+
+	.plan {
+		width: 320px;
+	}
+
+	.advantages__block.flex {
+		justify-content: center;
+	}
+
+	.advantages__items {
+		order: 100;
+	}
+
+	.advantages__info {
+		width: 100%;
+	}
+
+	.advantages__info h2 {
+		margin-left: -40px;
+	}
+
+	.menu a span {
+		padding-left: 33px;
+	}
+
+	.menu a {
+		padding: 20px 10px;
+	}
+
+	.page-plans .plans__items.flex {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.page-plans {
+		-webkit-background-size: auto 100%;
+		background-size: auto 100%;
+	}
+
+	.page-plans-bounty {
+		-webkit-background-size: 2000px 100%;
+		background-size: 2000px 100%;
+	}
+
+	.blocks {
+		background-position: right 70px top;
+	}
+
+	.payment.flex {
+		padding-right: 0;
+	}
+
+
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 750px;
+	}
+
+	header {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.header__menu.flex {
+		position: fixed;
+		z-index: 10;
+		width: 250px;
+		height: 100vh;
+		top: 0;
+		left: -250px;
+		transition: all ease 0.3s;
+		align-content: center;
+		background: #fff;
+		border-right: 2px solid #03bf8a;
+	}
+
+	.header__menu.flex.active {
+		left: 0;
+	}
+
+	.header__menu a {
+		width: 100%;
+		text-align: center;
+		padding: 10px 20px;
+	}
+
+	.navbar-tog {
+		display: block;
+		cursor: pointer;
+	}
+
+	.bar1,
+	.bar2,
+	.bar3 {
+		width: 30px;
+		height: 4px;
+		margin-bottom: 5px;
+		background-color: #02c28c;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.navbar-on .bar1 {
+		transform-origin: 5% 40%;
+		transform: rotate(45deg);
+		background-color: #02c28c;
+	}
+
+	.navbar-on .bar3 {
+		transform-origin: 10% 40%;
+		transform: rotate(-45deg);
+		background-color: #02c28c;
+	}
+
+	.navbar-on .bar2 { background-color: transparent; }
+
+	.main__info {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.main__calc-wrapper {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.why__item {
+		width: 180px;
+		padding: 105px 15px 15px 15px;
+	}
+
+	.why__item:before {
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+
+	.plans__items.flex {
+		justify-content: space-around;
+	}
+
+	.plan {
+		width: 365px;
+	}
+
+	.stat__item:before {
+		display: none;
+	}
+
+	.stat__item {
+		width: 48%;
+		padding-left: 0;
+	}
+
+	.stat__items.flex {
+		padding-bottom: 15px;
+	}
+
+	.ref .container:before {
+		left: auto;
+		margin-left: 0;
+		right: 0;
+	}
+
+	.footer__block.flex {
+		justify-content: center;
+	}
+
+	.footer__menu.flex {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.plans__stat.flex {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.menu a {
+		width: 25%;
+		padding: 15px;
+	}
+
+	.page-stat {
+		padding-top: 0;
+	}
+
+	.page-stat h2 {
+		margin-bottom: 0px;
+	}
+
+	footer.page-footer {
+		margin-top: -230px;
+	}
+
+	.partners {
+		margin-bottom: 50px;
+		padding-left: 300px;
+	}
+
+	.blocks {
+		background-position: right top;
+	}
+	
+	.block {
+		max-width: 460px;
+	}
+
+	.bounty {
+		padding-bottom: 240px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.why__item {
+		width: 260px;
+	}
+
+	.why__item-one,
+	.why__item-two {
+		margin-bottom: 75px;
+	}
+
+	.why__item:before {
+		-moz-transform: scale(1);
+	    -webkit-transform: scale(1);
+	    -o-transform: scale(1);
+	    -ms-transform: scale(1);
+	    transform: scale(1);
+	}
+
+	.why {
+		padding-bottom: 85px;
+	}
+
+	.advantages__items {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		background: none;
+	}
+
+	.advantages__item.flex {
+		position: relative;
+		width: 100%;
+		margin-top: 20px;
+		justify-content: center;
+	}
+
+	.advantages__item-one.flex,
+	.advantages__item-two.flex,
+	.advantages__item-three.flex,
+	.advantages__item-four.flex,
+	.advantages__item-five.flex,
+	.advantages__item-six.flex {
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.advantages__item_text {
+		width: auto;
+		max-width: calc(100% - 80px);
+		opacity: 1;
+	}
+
+	.advantages__item-three .advantages__item_text, .advantages__item-six .advantages__item_text {
+		text-align: left;
+	}
+
+	.advantages__item-three .advantages__item_icon, .advantages__item-six .advantages__item_icon {
+		margin-right: 30px;
+		margin-bottom: 0;
+	}
+
+	.advantages__item:hover .advantages__item_icon {
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.advantages {
+		padding-bottom: 20px;
+	}
+
+	.stat {
+		padding-top: 40px;
+	}
+
+	.stat__table {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.ref .container:before {
+		opacity: 0.7;
+	}
+
+	.ref {
+		padding-bottom: 120px;
+	}
+
+	.footer__menu a {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+
+	.plans__stat_item {
+		width: 48%;
+	}
+
+	.plans__stat_item-one,
+	.plans__stat_item-two {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	.plans__stat_item-four {
+		margin-top: 0;
+	}
+
+	.stat__table table tr td {
+		padding: 12px;
+	}
+
+	.page-plans {
+		background: #0cb78a;
+		padding-bottom: 50px;
+	}
+
+	.partners {
+		padding-left: 0;
+		background: none;
+		padding-top: 0;
+	}
+
+	.modal {
+		width: 500px;
+	}
+
+	.modal__radio label {
+		margin-bottom: 10px;
+	}
+
+	#modal-two .modal {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 30px;
+		padding-top: 25px;
+	}
+
+	.modal__text {
+		width: 290px;
+	}
+
+	.modal__button {
+		margin-bottom: 25px;
+	}
+
+	.modal__address {
+		margin-bottom: 30px;
+	}
+
+	#modal-two .modal__title {
+		margin-bottom: 35px;
+	}
+
+	.blocks {
+		background: none;
+	}
+
+	.block {
+		max-width: 100%;
+	}
+
+	.block__title {
+		margin-bottom: 15px;
+	}
+
+	footer.page-footer {
+		margin-top: -115px;
+		padding-top: 115px;
+	}
+
+	.bounty {
+		padding-bottom: 120px;
+	}
+
+	.menu__block.flex {
+		justify-content: flex-end;
+	}
+
+	.menu a {
+		width: 50%;
+	}
+
+	.payment__form {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.cert__block.flex {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.cert__info {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	
+	.container {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.main__info h1 {
+		font-size: 33px;
+	}
+
+	.main__info_list li {
+		margin-bottom: 10px;
+	}
+
+	.main__form input {
+		padding-right: 10px;
+		padding-left: 10px;
+		font-size: 12px;
+	}
+
+	.main__form button {
+		position: relative;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.main__info_list {
+		margin-bottom: 20px;
+	}
+
+	.main__calc {
+		width: 300px;
+		height: 600px;
+		padding-top: 50px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.main__calc_field input {
+		font-size: 22px;
+		padding-left: 60px;
+	}
+
+	.main__calc_field input {
+		background-position: 13px center;
+	}
+
+	.main__calc_field input, .main__calc_field select {
+		height: 42px;
+	}
+
+	.main__calc_field {
+		margin-bottom: 5px;
+	}
+
+	.main__calc_item-title {
+		margin-bottom: 5px;
+	}
+
+	.main__calc_items {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.main__calc_item-value {
+		font-size: 26px;
+	}
+
+	.main__calc_field select {
+		font-size: 15px;
+	}
+
+	.main__calc_items {
+		margin-bottom: 30px;
+	}
+
+	.why__item {
+		width: 100%;
+		max-width: 280px;
+	}
+
+	.why__item-three {
+		margin-bottom: 75px;
+	}
+
+	.main__top {
+		background: none;
+	}
+
+	.why {
+		background: #06b182;
+		padding-bottom: 35px;
+		padding-top: 20px;
+	}
+
+	.main {
+		padding-bottom: 20px;
+	}
+
+	h2 {
+		padding-left: 0;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	.plan {
+		width: 100%;
+		max-width: 365px;
+	}
+
+	.plan__box {
+		padding: 145px 15px 15px 15px;
+	}
+
+	.advantages__info h2 {
+		margin-left: 0;
+	}
+
+	.advantages {
+		padding-top: 15px;
+	}
+
+	.advantages__info h2 {
+		margin-bottom: 20px;
+	}
+
+	.stat__item {
+		width: 100%;
+		text-align: center;
+	}
+
+	.stat__table table tr td {
+		padding: 8px;
+	}
+
+	.ref .container:before {
+		display: none;
+	}
+
+	.ref h2 {
+		margin-bottom: 20px;
+	}
+
+	.question p {
+		font-size: 17px;
+		padding: 15px 60px 15px 15px;
+	}
+
+	.answer {
+		padding: 5px 15px 15px 15px;
+	}
+
+	.why__item p {
+		text-align: center;
+	}
+
+	.why__items.flex {
+		justify-content: center;
+	}
+
+	.menu a {
+		width: 50%;
+	}
+
+	.plans__stat_item-title {
+		margin-bottom: 0;
+	}
+
+	.modal {
+		width: 300px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.modal__radio label {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.modal__text {
+		width: 100%;
+	}
+
+	#modal-two .modal {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.modal__code {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	.modal__text > p {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.modal__text_title {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.modal__button button {
+		width: 100%;
+	}
+
+	.menu a {
+		width: 100%;
+		padding: 8px;
+	}
+
+	.payment__balance {
+		margin-bottom: 0;
+	}
+
+	.payment__form button {
+		position: relative;
+		width: 100%;
+	}
+
+	.payment__form input {
+		padding-right: 25px;
+	}
+
+}

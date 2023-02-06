@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DogeDream.Live - Your profitable assistant in investing Dogecoin!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="do/fonts/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="do/img/header-logo.png">
+    <link href="do/css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="do/css/style.css" rel="stylesheet" type="text/css">
+    <link href="do/css/media.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="do/css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="do/themes/simple.css">
+    <script src="do/js/jquery-3.3.1.min.js"></script>
+    <script src="do/js/sugar.min.js"></script>
+
+</head>
+
+
+
+
+
+<body class="mini-sidebar" data-new-gr-c-s-check-loaded="14.1095.0" data-gr-ext-installed="">
+    <div class="main__top">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container" style="width: 100%; height: 74px;">
+            <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/ticker-tape/?locale=en#%7B%22symbols%22%3A%5B%7B%22title%22%3A%22EUR%2FUSD%22%2C%22proName%22%3A%22FX_IDC%3AEURUSD%22%7D%2C%7B%22title%22%3A%22BTC%2FUSD%22%2C%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%7D%2C%7B%22title%22%3A%22ETH%2FUSD%22%2C%22proName%22%3A%22BITSTAMP%3AETHUSD%22%7D%2C%7B%22description%22%3A%22DOGE%2FUSD%22%2C%22proName%22%3A%22BINANCE%3ADOGEUSD%22%7D%2C%7B%22description%22%3A%22LTC%2FUSD%22%2C%22proName%22%3A%22BITSTAMP%3ALTCUSD%22%7D%2C%7B%22description%22%3A%22BCH%2FUSD%22%2C%22proName%22%3A%22BITSTAMP%3ABCHUSD%22%7D%5D%2C%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22displayMode%22%3A%22adaptive%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A74%2C%22utm_source%22%3A%22dogedream.live%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22ticker-tape%22%2C%22page-uri%22%3A%22dogedream.live%2F%22%7D"
+                style="box-sizing: border-box; height: 74px; width: 100%;"></iframe>
+
+
+            <style>
+                .tradingview-widget-copyright {
+                    font-size: 13px !important;
+                    line-height: 32px !important;
+                    text-align: center !important;
+                    vertical-align: middle !important;
+                    /* @mixin sf-pro-display-font; */
+                    font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+                    color: #9db2bd !important;
+                }
+                
+                .tradingview-widget-copyright .blue-text {
+                    color: #2962FF !important;
+                }
+                
+                .tradingview-widget-copyright a {
+                    text-decoration: none !important;
+                    color: #9db2bd !important;
+                }
+                
+                .tradingview-widget-copyright a:visited {
+                    color: #9db2bd !important;
+                }
+                
+                .tradingview-widget-copyright a:hover .blue-text {
+                    color: #1E53E5 !important;
+                }
+                
+                .tradingview-widget-copyright a:active .blue-text {
+                    color: #1848CC !important;
+                }
+                
+                .tradingview-widget-copyright a:visited .blue-text {
+                    color: #2962FF !important;
+                }
+            </style>
+        </div>
+        <!-- TradingView Widget END -->
+        <header>
+            <div class="container">
+                <div class="header__block flex">
+                    <a href="index.html" class="header__logo">
+                        <span>DogeDream</span> Live
+                    </a>
+                    <div class="header__menu flex">
+                        <a href="index.html" class="active">Home</a>
+                        <a href="#stat">Statistics</a>
+                        <a href="#plans">Plans</a>
+                        <a href="#ref">Affiliates</a>
+                        <a href="#faq">Faq</a>
+                    </div>
+                    <div class="navbar-tog">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="main">
+            <div class="container">
+                <div class="main__block flex">
+                    <div class="main__info">
+                        <h1>
+                            Safe DOGECOIN <span>Trading 20%</span> EVERY DAY PROFIT
+                        </h1>
+                        <ul class="main__info_list">
+                            <li><span>+20</span>% for 24 HOURS FOREVER</li>
+                            <li>Multi-level tariffs. Profits will be added to your account <span>in 24 hours</span></li>
+                            <li>Instant payments to your <span>Dogecoin</span> wallet</li>
+                        </ul>
+                        <div class="main__info">
+
+                            <div class="alert warning" style="display:none">
+                                <span class="closebtn">×</span>
+                                <strong></strong>
+                            </div>
+
+                        </div>
+
+                        <div class="main__form">
+
+                            <!--     <p class="foxnt-weight-bold font-22" style="margin-xbottom: 0!important;">
+                                        DOUBLE YOUR <span class="bluxe-text">MONEY</span><br>
+                                    IN 24 HOURS</p>  -->
+                            <form id="auth_form" action="" method="post">
+                                <div id="auth_error"></div>
+
+                                <!--<br>
+                                            and choose a payment system.</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon fa fa-plug" style="color: #14667a;"></span> 
+                                                <select class="form-control" name="ps">
+                                                                                                            <option value="">
+                                                            BitCoin                                                        </option>
+                                                                                                            <option value="">
+                                                            LiteCoin                                                        </option>
+                                                                                                            <option value="">
+                                                            DogeCoin                                                        </option>
+                                                                                                            <option value="">
+                                                            Ethereum                                                        </option>
+                                                                                                            <option value="">
+                                                            Dash                                                        </option>
+                                                                                                            <option value="">
+                                                            BitcoinCash                                                        </option>
+                                                                                                            <option value="">
+                                                            Zcash                                                        </option>
+                                                                                                            <option value="">
+                                                            EthereumClassic                                                        </option>
+                                                                                                            <option value="">
+                                                            Ripple                                                        </option>
+                                                                                                            <option value="">
+                                                            TRON                                                        </option>
+                                                                                                    </select>
+                                            </div>-->
+
+
+                                <input name="wallet" id="wallet" placeholder="Your Dogecoin Wallet (We will send profit to it)" type="text">
+                                <button type="submit" onclick="top.location = 'page1.html'">
+                                                Start </button>
+
+                            </form>
+
+                            <div class="main__reg">
+                                <div class="main__reg_title">
+                                    How to register?
+                                </div>
+                                <div class="main__reg_text">
+                                    Use Dogecoin online wallet <a href="https://trustwallet.com/" target="_blank">trustwallet.com</a> Go to the "Dogecoin" section and copy your wallet to enter the site and receive payments.
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <script type="text/javascript" src="fingerprint2.js"></script>
+                    <div class="main__calc-wrapper wow slideInRight" style="visibility: visible; animation-name: slideInRight;">
+                        <div class="main__calc_dog"></div>
+                        <div class="main__calc">
+                            <div class="main__calc_title">
+                                Investment Amount
+                            </div>
+                            <div class="main__calc_field">
+                                <input type="text" value="100" id="amount" onkeyup="calc();">
+                            </div>
+                            <div class="main__calc_field">
+                                <select onchange="calc();" id="plan">
+																	<option value="0">20% for 24 hours</option>
+									
+																		<option value="1">1250% for 60 days</option>
+									
+																		<option value="2">2900% for 90 days</option>
+									
+																	</select>
+                            </div>
+                            <div class="main__calc_items">
+                                <div class="main__calc_item">
+                                    <div class="main__calc_item-title">
+                                        Hourly Profit
+                                    </div>
+                                    <div class="main__calc_item-value" id="hour">0.83 <span> DOGE</span></div>
+                                </div>
+                                <div class="main__calc_item">
+                                    <div class="main__calc_item-title">
+                                        Daily Profit
+                                    </div>
+                                    <div class="main__calc_item-value" id="day">20.00 <span> DOGE</span></div>
+                                </div>
+                                <div class="main__calc_item">
+                                    <div class="main__calc_item-title">
+                                        Total Profit
+                                    </div>
+                                    <div class="main__calc_item-value" id="mon">120.00 <span> DOGE</span></div>
+                                </div>
+                            </div>
+                            <div class="main__calc_deposit">
+                                <div class="main__calc_deposit-row main__calc_deposit-row-one flex">
+                                    <p>Min Amount</p>
+                                    <div class="main__calc_deposit-value">
+                                        2
+                                    </div>
+                                </div>
+                                <div class="main__calc_deposit-row main__calc_deposit-row-two flex">
+                                    <p>Max Amount</p>
+                                    <div class="main__calc_deposit-value">
+                                        500000
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why">
+            <div class="container">
+                <h2 class="white">
+                    Why CRYPTO TRADING?
+                </h2>
+                <div class="why__items flex">
+                    <div class="why__item why__item-one wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                        <p>
+                            1 Billion users worldwide
+                        </p>
+                    </div>
+                    <div class="why__item why__item-two wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                        <p>
+                            900 Billion Dollar Market Capitalization
+                        </p>
+                    </div>
+                    <div class="why__item why__item-three wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                        <p>
+                            Decentralized Financial Network
+                        </p>
+                    </div>
+                    <div class="why__item why__item-four wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                        <p>
+                            Secured and Transparent Transactions
+                        </p>
+                    </div>
+                </div>
+                <div class="why__info">
+                    <p>
+                        If you want to become a part of a technology revolution which could shake the very fabric of our economic, social, political behavior and to earn the money, then invest in crypto. The future of cryptocurrency is bright and cryptocurrencies are trending
+                        all over the world as the internet payments have been accepted by many companies.
+                        <br>
+                        <span>Cryptocurrency is a trending payment and investment asset just like how people invest in mutual funds, real estate, gold and silver nowadays.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="cert">
+        <div class="container">
+            <h2>
+                Company legality
+            </h2>
+            <div class="cert__block flex">
+                <div class="cert__img">
+                    <a target="_blank" href="do/img/CERTIFICATE-1.pdf"><img src="do/img/serf.jpg" alt="" width="200px" border="1px"></a>
+                </div>
+                <div class="cert__info">
+                    <div class="cert__title">
+                        DogeDream Live LIMITED
+                    </div>
+                    <div class="cert__item">
+                        <div class="cert__item_title">Registration number</div>
+                        <div class="cert__item_value">#14522224</div>
+                    </div>
+                    <div class="cert__item">
+                        <div class="cert__item_title">Company address:</div>
+                        <div class="cert__item_value">9 Belgrave Close, London, England, N14 4TN</div>
+                    </div>
+                    <div class="cert__button">
+                        <a target="_blank" href="https://beta.companieshouse.gov.uk/company/14522224">View Company</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="plans" id="plans">
+        <div class="container">
+            <h2>
+                Investment plans
+            </h2>
+            <div class="plans__items flex">
+                <div class="plan plan-one wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
+                    <div class="plan__percent">
+                        <div class="plan__percent_value">
+                            20%
+                        </div>
+                        <div class="plan__percent_title">
+                            DAILY FOREVER
+                        </div>
+                    </div>
+                    <div class="plan__box">
+                        <div class="plan__table">
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td>Minimum deposit</td>
+                                        <td>2 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maximal deposit</td>
+                                        <td>500000 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ref. commission</td>
+                                        <td>15%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Minimum withdrawal</td>
+                                        <td>2 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Instant withdrawals</td>
+                                        <td>+</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="plan__text">
+                            We accept: Dogecoin, Bitcoin, Litecoin, Bitcoin cash, Ethereum, Dash, Solana
+                        </div>
+                        <div class="plan__button">
+                            <a href="#">Select</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan plan-two wow zoomIn" style="visibility: hidden; animation-name: none;">
+                    <div class="plan__percent">
+                        <div class="plan__percent_value">
+                            1250%
+                        </div>
+                        <div class="plan__percent_title">
+                            AFTER 60 DAYS!
+                        </div>
+                    </div>
+                    <div class="plan__box">
+                        <div class="plan__table">
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td>Minimum deposit</td>
+                                        <td>2 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maximal deposit</td>
+                                        <td>500000 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ref. commission</td>
+                                        <td>15%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Minimum withdrawal</td>
+                                        <td>2 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Instant withdrawals</td>
+                                        <td>+</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="plan__text">
+                            We accept: Dogecoin, Bitcoin, Litecoin, Bitcoin cash, Ethereum, Dash, Solana
+                        </div>
+                        <div class="plan__button">
+                            <a href="#">Select</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan plan-three wow slideInRight" style="visibility: hidden; animation-name: none;">
+                    <div class="plan__percent">
+                        <div class="plan__percent_value">
+                            2900%
+                        </div>
+                        <div class="plan__percent_title">
+                            AFTER 90 DAYS!
+                        </div>
+                    </div>
+                    <div class="plan__box">
+                        <div class="plan__table">
+                            <table cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td>Minimum deposit</td>
+                                        <td>2 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maximal deposit</td>
+                                        <td>500000 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ref. commission</td>
+                                        <td>15%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Minimum withdrawal</td>
+                                        <td>2 Doge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Instant withdrawals</td>
+                                        <td>+</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="plan__text">
+                            We accept: Dogecoin, Bitcoin, Litecoin, Bitcoin cash, Ethereum, Dash, Solana
+                        </div>
+                        <div class="plan__button">
+                            <a href="#">Select</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__block flex">
+                <div class="advantages__items wow zoomIn" style="visibility: hidden; animation-name: none;">
+                    <div class="advantages__item advantages__item-one flex">
+                        <div class="advantages__item_icon"></div>
+                        <div class="advantages__item_text">
+                            Secured Payments
+                        </div>
+                    </div>
+                    <div class="advantages__item advantages__item-two flex">
+                        <div class="advantages__item_icon"></div>
+                        <div class="advantages__item_text">
+                            Secured Payments
+                        </div>
+                    </div>
+                    <div class="advantages__item advantages__item-three flex">
+                        <div class="advantages__item_icon"></div>
+                        <div class="advantages__item_text">
+                            Secured Payments
+                        </div>
+                    </div>
+                    <div class="advantages__item advantages__item-four flex">
+                        <div class="advantages__item_icon"></div>
+                        <div class="advantages__item_text">
+                            Secured Payments
+                        </div>
+                    </div>
+                    <div class="advantages__item advantages__item-five flex">
+                        <div class="advantages__item_icon"></div>
+                        <div class="advantages__item_text">
+                            Secured Payments
+                        </div>
+                    </div>
+                    <div class="advantages__item advantages__item-six flex">
+                        <div class="advantages__item_icon"></div>
+                        <div class="advantages__item_text">
+                            Secured Payments
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__info">
+                    <h2>
+                        Our Advantages
+                    </h2>
+                    <p>
+                        DogeDream.Live is a leading company in the cryptocurrency market industry, uniting a team of true professionals in their field. The main directions of our company are trading on cryptocurrency exchanges, arbitrage and cryptocurrency stacking. DogeDream.Live
+                        has united real enthusiasts of the cryptocurrency world under its leadership, only the best experts, analysts and traders work for the benefit of the company's development. The DogeDream.Live team is constantly developing in all
+                        areas of its activities. In trading, we actively develop and implement our own automated trading systems, which in turn allow us to scale profits and reduce financial risks when trading on exchanges.
+                    </p>
+                    <div class="advantages__info_signature">
+                        United by common interests and the desire to be at the forefront of the cryptocurrency market, we are constantly improving our performance and always are in the vanguard of technology.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stat" id="stat">
+        <div class="container">
+            <div class="stat__items flex">
+                <div class="stat__item wow slideInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="stat__item_value">
+                        5 </div>
+                    <div class="stat__item_title">
+                        DAYS ONLINE
+                    </div>
+                </div>
+                <div class="stat__item wow slideInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="stat__item_value">
+                        16337 </div>
+                    <div class="stat__item_title">
+                        ACCOUNTS
+                    </div>
+                </div>
+                <div class="stat__item wow slideInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="stat__item_value">
+                        71830.85 <span> DOGE</span>
+                    </div>
+                    <div class="stat__item_title">
+                        DEPOSIT
+                    </div>
+                </div>
+                <div class="stat__item wow slideInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="stat__item_value">
+                        49503.02 <span> DOGE</span>
+                    </div>
+                    <div class="stat__item_title">
+                        PAYOUTS
+                    </div>
+                </div>
+            </div>
+            <div class="stat__table-wrapper">
+                <div class="stat__table">
+                    <table cellpadding="0" cellspacing="0">
+                        <thead>
+
+                            <tr>
+
+                                <td>Date</td>
+
+                                <td>Deposit Amount</td>
+
+                                <td> Account/Address </td>
+                                <td> Status </td>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>29/01/2023 03:20:11</td>
+
+
+                                <td>
+                                    1.55046846 TRX
+                                </td>
+
+                                <td>
+                                    <a href="#" style="color: blue;">D7oTYmhpT1CrdqtLdYuwP5SzxccnSbJ***</a>
+                                </td>
+                                <td>↑ Deposit </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>29/01/2023 01:41:12</td>
+
+
+                                <td>
+                                    2.00000000 DOGE
+                                </td>
+
+                                <td>
+                                    <a href="#" style="color: blue;">D5JXDUw7FKgESY8gkv5mfyiqk2aiJ5G***</a>
+                                </td>
+                                <td>↑ Deposit </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>28/01/2023 22:32:32</td>
+
+
+                                <td>
+                                    20.00000000 DOGE
+                                </td>
+
+                                <td>
+                                    <a href="#" style="color: blue;">DRQ5CiHSu4DDqJRpLEioixNcgFdWk3N***</a>
+                                </td>
+                                <td>↑ Deposit </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>28/01/2023 22:31:51</td>
+
+
+                                <td>
+                                    2.58411410 TRX
+                                </td>
+
+                                <td>
+                                    <a href="#" style="color: blue;">DQGsPy3ag8BPZpEbKHTVciVFjpsu2pM***</a>
+                                </td>
+                                <td>↑ Deposit </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>28/01/2023 22:27:55</td>
+
+
+                                <td>
+                                    2.58411410 TRX
+                                </td>
+
+                                <td>
+                                    <a href="#" style="color: blue;">DAW5wCNC2dSVRYAN8tmWTTdav2y8MS3***</a>
+                                </td>
+                                <td>↑ Deposit </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>28/01/2023 19:43:50</td>
+
+
+                                <td>
+                                    1.62000000 DOGE
+                                </td>
+                                <td>
+                                    <a href="#" style="color: blue;">DLsQdXhM5XndmL7CYGCBnWs7AjFVWpk***</a>
+                                </td>
+
+
+
+                                <td> Payout ↓ </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>28/01/2023 19:13:44</td>
+
+
+                                <td>
+                                    5.18000000 DOGE
+                                </td>
+                                <td>
+                                    <a href="#" style="color: blue;">DLsQdXhM5XndmL7CYGCBnWs7AjFVWpk***</a>
+                                </td>
+
+
+
+                                <td> Payout ↓ </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>28/01/2023 17:28:13</td>
+
+
+                                <td>
+                                    3.13000000 DOGE
+                                </td>
+                                <td>
+                                    <a href="#" style="color: blue;">DSyXBr7SzGwPQTmJcdUgtsx5Fh9jzj8***</a>
+                                </td>
+
+
+
+                                <td> Payout ↓ </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>28/01/2023 17:21:49</td>
+
+
+                                <td>
+                                    69.01000000 DOGE
+                                </td>
+                                <td>
+                                    <a href="#" style="color: blue;">DTykiwTMqkmpeXsFYLSsht4MwcL6Sys***</a>
+                                </td>
+
+
+
+                                <td> Payout ↓ </td>
+                            </tr>
+                            <tr style="height: 60px; font-size: large; font-family: 'NeueMachina';">
+                                <td>28/01/2023 16:18:21</td>
+
+
+                                <td>
+                                    14.40000000 DOGE
+                                </td>
+                                <td>
+                                    <a href="#" style="color: blue;">DQtzvK9yWH9qRoq54ywAUGUowui6HdD***</a>
+                                </td>
+
+
+
+                                <td> Payout ↓ </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ref" id="ref">
+        <div class="container">
+            <h2 class="white">
+                15% Referral Commission
+            </h2>
+            <div class="ref__info wow slideInUp" style="visibility: hidden; animation-name: none;">
+                <p>
+                    We appreciate all you do to spread word of our platform and one way we show our gratitude is through our official Affiliate Program. Simply share your affiliate link with friends or family, and you will earn 15% referral commission from their active deposit.
+                </p>
+                <div class="ref__info_signature">
+                    YOU DON'T EVEN NEED TO HAVE AN ACTIVE INVESTMENT TO PARTICIPATE
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>
+                Frequently Asked Question
+            </h2>
+            <div class="faq__items">
+                <div class="faq__item">
+                    <div class="question">
+                        <p>What is the activity area of the company?</p>
+                    </div>
+                    <div class="answer">
+                        We are a leading company in the cryptocurrency market industry, uniting a team of true professionals in our field. The main directions of our company are trading on cryptocurrency exchange, arbitrage and cryptocurrency stacking.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="question">
+                        <p>How legal is the DogeDream.Live business?</p>
+                    </div>
+                    <div class="answer">
+                        Yes, our company is registered in the UK. Our office is located at: 9 Belgrave Close, London, England, N14 4TN. Registration number: 14522224. All the necessary documents are on the main page.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="question">
+                        <p>What tools do you have for earning money?</p>
+                    </div>
+                    <div class="answer">
+                        We offer investment services on the most favorable and flexible terms, with us you can earn from 15% to 2900%, depending on the investment offer you choose. Also, you can use the affiliate program so that you can earn together with your partners.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="question">
+                        <p>Can I create multiple accounts at once?</p>
+                    </div>
+                    <div class="answer">
+                        No, only one account can be registered from one IP address. Otherwise, DogeDream.Live reserves the right to block them with further penalties.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="question">
+                        <p>What if there is no answer to my question here?</p>
+                    </div>
+                    <div class="answer">
+                        Contact our support team using the feedback form or any other way convenient for you.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function calc(plan, sum) {
+            var profit = {};
+            profit = {
+                "0": {
+                    "id": "0",
+                    "name": "20% for 24 hours",
+                    "percent": "20",
+                    "hours": "24",
+                    "days": "1",
+                },
+                "1": {
+                    "id": "1",
+                    "name": "1250% for 60 days",
+                    "percent": "1250",
+                    "hours": "1440",
+                    "days": "60",
+                },
+                "2": {
+                    "id": "2",
+                    "name": "2900% for 90 days",
+                    "percent": "2900",
+                    "hours": "2160",
+                    "days": "90",
+                },
+            };
+            var plan = parseInt($("#plan").val());
+            var sum = parseFloat($("#amount").val());
+            var hour;
+            var day;
+            var mon;
+            hour = parseFloat((sum / 100 * profit[plan]['percent']) / profit[plan]['hours']).toFixed(2) + " <span> DOGE</span>";
+            day = parseFloat((sum / 100 * profit[plan]['percent']) / profit[plan]['days']).toFixed(2) + " <span> DOGE</span>";
+            mon = parseFloat(sum + (sum / 100 * profit[plan]['percent'])).toFixed(2) + " <span> DOGE</span>";
+            $("#hour").html(hour);
+            $("#day").html(day);
+            $("#mon").html(mon);
+        }
+        $(document).ready(function() {
+            calc();
+        });
+    </script>
+    <footer>
+        <div class="container">
+            <div class="footer__block flex">
+                <a href="index.html" class="footer__logo">
+                    <span>DogeDream</span> Live
+                </a>
+                <div class="footer__menu flex">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="#stat">Statistics</a>
+                    <a href="#plans">Plans</a>
+                    <a href="#ref">Affiliates</a>
+                    <a href="#faq">Faq</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="do/js/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="do/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="do/js/bit.js"></script>
+    <script src="do/js/wow.min.js"></script>
+    <script src="do/js/main.js"></script>
+    <script>
+        $(function() {
+            $('.question').click(function() {
+                $(this).toggleClass('active');
+                $(this).next().slideToggle(300);
+            });
+            $('.main__reg_title').click(function() {
+                $('.main__reg').toggleClass('active');
+                $('.main__reg_text').slideToggle(300);
+            });
+        });
+    </script>
+
+
+    <script src="my/theme/demo53/assets/common/js/moment.js"></script>
+    <script src="my/theme/demo53/assets/common/js/moment-timezone.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/jquery/jquery.min.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/bootstrap/js/tether.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/theme/demo53/assets/common/js/jquery.slimscroll.js"></script>
+    <script src="my/theme/demo53/assets/common/js/waves.js"></script>
+    <script src="my/theme/demo53/assets/common/js/sidebarmenu.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/counterup/counterup.min.js"></script>
+    <script src="my/theme/demo53/assets/common/js/wallet-address-validator.min.js"></script>
+    <script src="my/theme/demo53/assets/common/js/jquery.countdown.min.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/toastr/toastr.min.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/clipboard/clipboard.min.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/qrcode/qrcode.min.js"></script>
+    <script src="my/theme/demo53/assets/common/js/custom.js"></script>
+    <script src="my/theme/demo53/assets/common/js/main.js"></script>
+    <script src="my/theme/demo53/assets/common/plugins/smooth-scroll/smooth-scroll.min.js" type="text/javascript"></script>
+    <script src="my/theme/demo53/assets/common/js/accordion.min.js"></script>
+    <script src="my/theme/demo53/assets/common/js/script.js"></script>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>

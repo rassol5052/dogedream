@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<head>
+    <title>DogeDream.Live</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Описание страницы для SEO и соцсетей">
+    <meta name="keywords" content="ключевые, слова, через, запятую">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="do/img/header-logo.png" />
+    <link href="do/fonts/fonts.css" rel="stylesheet" type="text/css">
+    <link href="do/css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="do/css/style.css" rel="stylesheet" type="text/css">
+    <link href="do/css/media.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="do/css/jquery.arcticmodal-0.3.css">
+
+    <link rel="stylesheet" type="text/css" href="do/note/jquery.noty.css" />
+    <link rel="stylesheet" href="do/css/icons/icons.css">
+
+    <link rel="stylesheet" href="do/themes/simple.css">
+    <script src="do/js/jquery-3.3.1.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols": [{
+                    "title": "EUR/USD",
+                    "proName": "FX_IDC:EURUSD"
+                }, {
+                    "title": "BTC/USD",
+                    "proName": "BITSTAMP:BTCUSD"
+                }, {
+                    "title": "ETH/USD",
+                    "proName": "BITSTAMP:ETHUSD"
+                }, {
+                    "description": "DOGE/USD",
+                    "proName": "BINANCE:DOGEUSD"
+                }, {
+                    "description": "TRX/USD",
+                    "proName": "BINANCE:TRXUSD"
+                }, {
+                    "description": "BCH/USD",
+                    "proName": "BITSTAMP:BCHUSD"
+                }],
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "locale": "en"
+            }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+    <header>
+        <div class="container">
+            <div class="header__block flex">
+                <a href="index2.html" class="header__logo">
+                    <span>DogeDream</span> Live
+                </a>
+                <div class="header__menu flex">
+                    <a href="index2.html" class="active">Home</a>
+                    <a href="index2.html#stat">Statistics</a>
+                    <a href="index2.html#plans">Plans</a>
+                    <a href="index2.html#ref">Affiliates</a>
+                    <a href="index2.html#faq">Faq</a>
+                </div>
+                <div class="navbar-tog">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <script type="text/javascript">
+        function depTimer(duration, display) {
+
+            if (parseInt(duration) <= 0) {
+                //alert(duration);
+                display.textContent = "COMPLETED";
+            } else {
+                var timer = duration,
+                    minutes, seconds;
+                setInterval(function() {
+                    hours = parseInt(timer / 3600, 10);
+                    minutes = parseInt((timer / 60) % 60, 10);
+                    seconds = parseInt(timer % 60, 10);
+
+                    hours = hours < 10 ? "0" + hours : hours;
+                    minutes = minutes < 10 ? "0" + minutes : minutes;
+                    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                    display.textContent = hours + ":" + minutes + ":" + seconds;
+
+                    if (timer <= 0) {
+                        display.textContent = "COMPLETED";
+                    }
+                    if (--timer < 0) {
+                        timer = duration;
+                    }
+                }, 1000);
+            }
+
+        }
+    </script>
+
+    <section class="menu">
+        <div class="container">
+            <div class="menu__block flex">
+                <a href="page1.html" class="menu-two"><span>Your deposits</span></a>
+                <a href="page=payment.html" class="menu-three"><span>Your payouts</span></a>
+                <a href="page=partners.html" class="menu-four"><span>Partners</span></a>
+                <a href="https://dogecoin.com/" target="_blank" class="menu-five"><span>Reviews</span></a>
+                <a href="index2.html" class="menu-seven"><span>Logout</span></a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="plans page-plans">
+        <div class="container">
+            <div class="plans__items flex">
+                <div class="plan plan-one">
+                    <div class="plan__percent">
+                        <div class="plan__percent_value">
+                            20%
+                        </div>
+                        <div class="plan__percent_title">
+                            20% for 24 hours </div>
+                    </div>
+                    <div class="plan__box">
+                        <div class="plan__table">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>Minimum deposit</td>
+                                    <td>2 Doge</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximal deposit</td>
+                                    <td>500000 Doge</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="plan__button">
+                            <a href="page money.html">Select</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan plan-two">
+                    <div class="plan__percent">
+                        <div class="plan__percent_value">
+                            1250%
+                        </div>
+                        <div class="plan__percent_title">
+                            1250% for 60 days
+                        </div>
+                    </div>
+                    <div class="plan__box">
+                        <div class="plan__table">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>Minimum deposit</td>
+                                    <td>2 Doge</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximal deposit</td>
+                                    <td>500000 Doge</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="plan__button">
+                            <a href="page money.html">Select</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan plan-three">
+                    <div class="plan__percent">
+                        <div class="plan__percent_value">
+                            2900%
+                        </div>
+                        <div class="plan__percent_title">
+                            2900% for 90 days </div>
+                    </div>
+                    <div class="plan__box">
+                        <div class="plan__table">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>Minimum deposit</td>
+                                    <td>2 Doge</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximal deposit</td>
+                                    <td>500000 Doge</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="plan__button">
+                            <a href="page money.html">Select</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="plans__stat flex">
+                <div class="plans__stat_item plans__stat_item-one">
+                    <div class="plans__stat_item-title">
+                        INVESTED
+                    </div>
+                    <div class="plans__stat_item-value">
+                        0.00 DOGE <span>DOGE</span>
+                    </div>
+                </div>
+                <div class="plans__stat_item plans__stat_item-two">
+                    <div class="plans__stat_item-title">
+                        REFERRAL
+                    </div>
+                    <div class="plans__stat_item-value">
+                        0 </div>
+                </div>
+                <div class="plans__stat_item plans__stat_item-three">
+                    <div class="plans__stat_item-title">
+                        PAID TOTAL
+                    </div>
+                    <div class="plans__stat_item-value">
+                        0.00 <span>DOGE</span>
+                    </div>
+                </div>
+                <div class="plans__stat_item plans__stat_item-four">
+                    <div class="plans__stat_item-title">
+                        AFFILIATE
+                    </div>
+                    <div class="plans__stat_item-value">
+                        0.00 <span>DOGE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #00000;
+            background-color: #FFFF00;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+        
+        .button:hover {
+            background-color: #3e8e41
+        }
+        
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
+    <section class="stat page-stat">
+
+        <div class="container">
+            <h2>
+                Your payment
+            </h2>
+            <div class="payment flex">
+                <div class="payment__form">
+                    <form method="POST" action="/handlers/user/payment.php">
+
+                        <input type="hidden" name="csrf" value="fb754f704f10a7dccfcd900315684e8d">
+                        <input type="hidden" name="from" value="page=payment.html">
+
+
+                        <input type="hidden" placeholder="AMOUNT " name="amount" value="0.00000000  " />
+
+                        <button class="button">Pay Now</button>
+
+
+                        <input type="hidden" name="system" value="DogeCoin">
+                    </form>
+                </div>
+                <div class="payment__balance flex">
+                    <div class="payment__balance_title">
+                        Your balance:
+                    </div>
+                    <div class="payment__balance_value">
+                        0.00000000 </div>
+                </div>
+            </div>
+
+
+            <div class="stat__table-wrapper">
+                <div class="stat__table">
+                    <table id="pay-dts">
+
+                        <thead>
+                            <tr>
+                                <th>DATE</th>
+                                <th>SUM</th>
+                                <th>WALLET</th>
+                                <th>STATUS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" align="center">You have not received payments yet</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="footer__block flex">
+                <a href="index2.html" class="footer__logo">
+                    <span>DogeDream</span> Live
+                </a>
+                <div class="footer__menu flex">
+                    <a href="index2.html" class="active">Home</a>
+                    <a href="index2.html#stat">Statistics</a>
+                    <a href="index2.html#plans">Plans</a>
+                    <a href="index2.html#ref">Affiliates</a>
+                    <a href="index2.html#faq">Faq</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="do/js/wow.min.js"></script>
+    <script src="do/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="do/js/note/jquery.noty.js"></script>
+    <script src="do/js/main.js"></script>
+    <script src="do/js/jquery.arcticmodal-0.3.min.js"></script>
+    <script type="text/javascript" src="do/js/bit.js"></script>
+
+
+    <script>
+        $(function() {
+            $('.bounty__links a').click(function() {
+                $('.bounty__links a').removeClass('active');
+                $(this).addClass('active');
+                var block = $(this).attr('href');
+                $('.block').hide();
+
+                $(block).show();
+                var tab = $(this).attr('href');
+                $("#type").val($(this).data('type'));
+
+                return false;
+            });
+
+            $('.block__button a').click(function() {
+                $('#modal-three').fadeIn(300);
+                return false;
+            });
+
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function() {
+            setInterval(function() {
+                $('.countdown').each(function() {
+                    var time = $(this).text().split(':');
+                    var timestamp = time[0] * 3600 + time[1] * 60 + time[2] * 1;
+                    timestamp -= timestamp > 0;
+                    var hours = Math.floor(timestamp / 3600);
+                    var minutes = Math.floor((timestamp - hours * 3600) / 60);
+                    var seconds = timestamp - hours * 3600 - minutes * 60;
+                    if (hours < 10) {
+                        hours = '0' + hours;
+                    }
+
+                    if (minutes < 10) {
+                        minutes = '0' + minutes;
+                    }
+                    if (seconds < 10) {
+                        seconds = '0' + seconds;
+                    }
+                    if (timestamp > 0) {
+                        $(this).text(hours + ':' + minutes + ':' + seconds);
+                    }
+                });
+            }, 1000);
+
+        })
+    </script>
+
+
+</body>
+
+</html>
